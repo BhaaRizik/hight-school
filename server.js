@@ -32,7 +32,7 @@ connection.connect(err => {
 
 app.get('/login', (req, res) => {
   const { id, password } = req.query
-  console.log('email: ' + id)
+  console.log('email: bhaa ' + id)
   console.log('password: ' + password)
 
   const loginQuery =
